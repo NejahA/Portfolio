@@ -64,6 +64,7 @@ const ContactUs = ({ className = "" }) => {
               <div className={styles.firstName2}>First Name</div>
               <div className={styles.field2}>
                 <input
+                  required 
                   name="first_name"
                   className={styles.label2}
                   placeholder="Jane"
@@ -75,6 +76,7 @@ const ContactUs = ({ className = "" }) => {
               <div className={styles.firstName2}>Last name</div>
               <div className={styles.field2}>
                 <input
+                  required 
                   name="last_name"
                   className={styles.label2}
                   placeholder="Smitherton"
@@ -88,6 +90,7 @@ const ContactUs = ({ className = "" }) => {
               style={{width:"25em"}}
               >
                 <input
+                  required 
                   name="email_id"
                   className={styles.label2}
                   placeholder="email@janesfakedomain.net"
@@ -99,6 +102,7 @@ const ContactUs = ({ className = "" }) => {
             <div className={styles.input}>
               <div className={styles.yourMessage}>Your message</div>
               <textarea
+                required 
                 name="message"
                 className={styles.field}
                 placeholder="Enter your question or message"
