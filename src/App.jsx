@@ -12,10 +12,9 @@ import Footer from './pages/components/Footer';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import ContactUs from './pages/ContactUs';
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 
 function App() {
-  const [count, setCount] = useState(0)
   return (
     <>
      <div 
@@ -23,17 +22,13 @@ function App() {
       >
           <Navigation/>
           <Routes>
+          <Route path="*" element={<Navigate to="/" replace />} />
           <Route  path="/" element={<About />} />
           <Route  path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<ContactUs />} />
-
           </Routes>
-        {/* <Content/> */}
-        {/* <About/>
-        <Projects/> */}
-        
-      <Footer />
+          <Footer />
         </div>
     </>
   )
