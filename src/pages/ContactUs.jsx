@@ -2,9 +2,8 @@ import React, { useRef } from 'react';
 import PropTypes from "prop-types";
 
 import styles from "./ContactUs.module.css";
-// import Input from "./components/Input";
 import emailjs from '@emailjs/browser';
-
+import Swal from 'sweetalert2';
 const ContactUs = ({ className = "" }) => {
 
   const form = useRef();
@@ -18,10 +17,22 @@ const ContactUs = ({ className = "" }) => {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          // console.log('SUCCESS!');
+          Swal.fire({
+            // position: "top-end",
+            icon: "success",
+            title: "Thank you for raeching out!",
+            showConfirmButton: false,
+            timer: 1500
+          });
         },
         (error) => {
-          console.log('FAILED...', error);
+          // console.log('FAILED...', error);
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong! Try again later.",
+          });
         },
       );
   };
