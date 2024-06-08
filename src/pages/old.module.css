@@ -1,0 +1,90 @@
+.about,
+.an,
+.contact,
+.projects {
+  position: relative;
+  font-size: 1.25em;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 1.5em;
+}
+.about,
+.contact,
+.projects {
+  min-width: 2.9em;
+}
+.contact,
+.projects {
+  min-width: 3.95em;
+}
+.contact {
+  min-width: 3.85em;
+}
+.projectContact {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.25em;
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+}
+.projectContactWrapper {
+  width: 19.375em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.313em 0 0;
+  box-sizing: border-box;
+}
+.navigation {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 2em;
+  gap: 1.25em;
+}
+.contactUs {
+  height: fit-content;
+
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 3.5em 5.188em 7.625em 4.563em;
+  box-sizing: border-box;
+  gap: 7.563em;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 750px) {
+  .contactUs {
+    gap: 3.75em;
+    padding-left: 2.25em;
+    padding-right: 2.563em;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .an {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .contactUs {
+    gap: 1.875em;
+  }
+}

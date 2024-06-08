@@ -1,0 +1,197 @@
+.about1,
+.an,
+.contact,
+.projects {
+  position: relative;
+  font-size: 1.25em;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 1.5em;
+}
+.about1,
+.contact,
+.projects {
+  min-width: 2.9em;
+}
+.contact,
+.projects {
+  flex: 1;
+  min-width: 3.95em;
+}
+.contact {
+  min-width: 3.85em;
+}
+
+
+
+.aboutChild {
+  width: 6.25em;
+  height: 6.25em;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.aPassionateFull,
+.hiImAchref {
+  align-self: stretch;
+  position: relative;
+}
+.hiImAchref {
+  margin: 0;
+  font-size: 4em;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-family: inherit;
+}
+.aPassionateFull {
+  font-size: 1.5em;
+  line-height: 150%;
+  color: #828282;
+}
+.blankLine,
+.blankLine1,
+.blankLine2,
+.feelFreeTo,
+.iSpecializeIn,
+.myJourneyFrom,
+.welcomeToMy {
+  margin: 0;
+}
+.paragraph {
+  align-self: stretch;
+  position: relative;
+  font-size: 1.25em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.introduction {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.5em;
+  min-width: 25.375em;
+  max-width: 100%;
+}
+.heroImageIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 8px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.heroImageContainer,
+.introductionParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.heroImageContainer {
+  height: 42.438em;
+  width: 31.75em;
+  flex-direction: column;
+  padding: 1.375em 0 0;
+  min-width: 31.75em;
+}
+.introductionParent {
+  width: 78.313em;
+  flex-direction: row;
+  padding: 0 0 1.875em;
+  gap: 7.563em;
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+}
+.about,
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 2.938em;
+  max-width: 100%;
+}
+.about {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 5.5em 5em 7.625em;
+  box-sizing: border-box;
+  gap: 7.875em;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .heroImageIcon {
+    align-self: stretch;
+    width: auto;
+  }
+  .heroImageContainer {
+    flex: 1;
+  }
+  .introductionParent {
+    flex-wrap: wrap;
+    gap: 3.75em;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .hiImAchref {
+    font-size: 3.188em;
+  }
+}
+@media screen and (max-width: 750px) {
+  .heroImageContainer,
+  .introduction {
+    min-width: 100%;
+  }
+  .introductionParent {
+    gap: 1.875em;
+  }
+  .content {
+    gap: 1.438em;
+  }
+  .about {
+    gap: 3.938em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .links {
+    gap: 1.5em;
+  }
+  .hiImAchref {
+    font-size: 2.375em;
+  }
+  .aPassionateFull {
+    font-size: 1.188em;
+    line-height: 1.526em;
+  }
+  .paragraph {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .introductionParent {
+    gap: 0.938em;
+  }
+  .about {
+    gap: 1.938em;
+  }
+}

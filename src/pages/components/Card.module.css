@@ -1,0 +1,75 @@
+.tunisitLogo1Icon {
+  width: 37.5em;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.aWebApplication,
+.tunist {
+  align-self: stretch;
+  position: relative;
+  font-size: 1.5em;
+  line-height: 150%;
+}
+.aWebApplication {
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #828282;
+}
+.card,
+.copy {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.copy {
+  flex: 1;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1.25em;
+  gap: 0.25em;
+  min-width: 25.688em;
+}
+.card {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1.719em 0;
+  gap: 1.5em;
+  flex-shrink: 0;
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .tunisitLogo1Icon {
+    flex: 1;
+  }
+  .card {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .copy {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .tunist {
+    font-size: 1.188em;
+    line-height: 1.526em;
+  }
+  .aWebApplication {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .card {
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    box-sizing: border-box;
+  }
+}

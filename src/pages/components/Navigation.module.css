@@ -1,0 +1,61 @@
+.navigation {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 0 2em;
+    gap: 1.25em;
+  }
+
+  .about,
+.an,
+.contact,
+.projects {
+  position: relative;
+  font-size: 1.25em;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 1.5em;
+}
+.an{
+  cursor: default;
+}
+.about,
+.contact,
+.projects {
+  cursor:pointer;
+
+  min-width: 2.9em;
+}
+.contact,
+.projects {
+  min-width: 3.95em;
+}
+.contact {
+  min-width: 3.85em;
+}
+
+.projectContact {
+    margin: 0;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.25em;
+    text-align: left;
+    color: #000;
+    font-family: Inter;
+  }
+  .projectContactWrapper {
+    width: 19.375em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.313em 0 0;
+    box-sizing: border-box;
+  }
+  

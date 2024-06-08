@@ -1,0 +1,188 @@
+.logo1Icon1 {
+  width: 37.5em;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.ldesc,
+.ltitle {
+  align-self: stretch;
+  position: relative;
+  font-size: 1.5em;
+  line-height: 150%;
+}
+.ldesc {
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #828282;
+}
+.lcard,
+.lcopy {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.lcopy {
+  flex: 1;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1.25em;
+  gap: 0.25em;
+  min-width: 25.688em;
+}
+.lcard {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1.719em 0;
+  gap: 1.5em;
+  flex-shrink: 0;
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .logo1Icon1 {
+    flex: 1;
+  }
+  .lcard {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .lcopy {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ltitle {
+    font-size: 1.188em;
+    line-height: 1.526em;
+  }
+  .ldec {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .lcard {
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    box-sizing: border-box;
+  }
+}
+
+
+
+
+
+.rdesc,
+.rtitle {
+  align-self: stretch;
+  position: relative;
+  font-size: 1.5em;
+  line-height: 150%;
+}
+.rdesc {
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #828282;
+}
+.rcopy {
+  flex: 1;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1.25em;
+  box-sizing: border-box;
+  gap: 0.25em;
+  min-width: 25.688em;
+  max-width: 100%;
+}
+.logo1Icon2 {
+  width: 37.5em;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+  max-width: 100%;
+}
+.rcard,
+/* .card1 */
+ {
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.rcard {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 5.438em 0;
+  box-sizing: border-box;
+  gap: 1.5em;
+}
+/* .card1
+ {
+  width: 38.813em;
+  height: 27.188em;
+} */
+.projectCardsContainer,
+.projects {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.projects {
+  /* height: 83.188em; */
+  height: fit-content;
+  flex: 1;
+  flex-direction: column;
+  padding: 0 1.438em 0 0;
+  gap: 1.875em;
+}
+.projectCardsContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0.375em;
+  text-align: left;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 1200px) {
+  .logo1Icon2 {
+    flex: 1;
+  }
+  .rcard {
+    flex-wrap: wrap;
+  }
+  .projects {
+    height: auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .rcopy {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .rtitle {
+    font-size: 1.188em;
+    line-height: 1.526em;
+  }
+  .rdesc {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  .rcard {
+    padding-top: 3.563em;
+    padding-bottom: 3.563em;
+    box-sizing: border-box;
+  }
+}
