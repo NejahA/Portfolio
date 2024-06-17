@@ -168,12 +168,21 @@
   }
   .about {
     gap: 3.938em;
-    padding-left: 2.5em;
-    padding-right: 2.5em;
+    padding-left: 1em;
+    padding-right: 1em;
     box-sizing: border-box;
+    /* font-size: 1em; */
+
+  }
+  .hiImAchref{
+    text-align: center;
+    font-size: 2.5em;
+  }
+  .aPassionateFull{
+    text-align: center;
   }
 }
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 1px) {
   .links {
     gap: 1.5em;
   }
@@ -194,4 +203,179 @@
   .about {
     gap: 1.938em;
   }
+} */
+
+@media screen and (max-width: 834x){
+  .aPassionateFull,
+  .hiImAchref {
+    align-self: stretch;
+    position: relative;
+  }
+  .hiImAchref {
+    margin: 0;
+    height: 3.609em;
+    font-size: 4em;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .aPassionateFull {
+    height: 3em;
+    font-size: 1.5em;
+    line-height: 150%;
+    color: #828282;
+    display: flex;
+    align-items: center;
+  }
+  .blankLine,
+  .blankLine1,
+  .blankLine2,
+  .myJourneyFrom,
+  .welcomeToMy {
+    margin: 0;
+  }
+  .paragraph {
+    align-self: stretch;
+    height: 19.5em;
+    position: relative;
+    font-size: 1.25em;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+  }
+  .blankLine3,
+  .blankLine4,
+  .blankLine5 {
+    margin: 0;
+  }
+  .paragraph {
+    align-self: stretch;
+    height: 19.5em;
+    position: relative;
+    font-size: 1.25em;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+    z-index: 1;
+    margin-top: -19.5em;
+  }
+  /* .hiImAchrefNejahParent,
+  .paragraphs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  } */
+  /* .paragraphs {
+    align-self: stretch;
+  } */
+  /* .hiImAchrefNejahParent {
+    flex: 1;
+    gap: 1.5em;
+    min-width: 14.938em;
+    max-width: 100%;
+  } */
+  .heroImageIcon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: 8px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .heroImageContainer
+  /* ,.heroInnerContainer */
+   {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .heroImageContainer {
+    height: 43.25em;
+    width: 18.688em;
+    flex-direction: column;
+    padding: 2.188em 0 0;
+    box-sizing: border-box;
+    min-width: 18.688em;
+  }
+  .heroInnerContainer {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 3.688em;
+    max-width: 100%;
+  }
+  /* .blankLine6,
+  .blankLine7, */
+  .feelFreeTo,
+  .iSpecializeIn {
+    margin: 0;
+  }
+  /* .paragraph2 {
+    width: 34.35em;
+    height: 14.8em;
+    position: relative;
+    font-size: 1.25em;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+  } */
+  .heroContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.363em;
+    max-width: 100%;
+    text-align: left;
+    color: #000;
+    font-family: Inter;
+  }
+ 
+  
+}
+.BurgerMenu{
+  display: none;
+}
+
+@media screen and (max-width: 834x){
+  .aPassionateFull,
+  .hiImAchref {
+    align-self: stretch;
+    position: relative;
+  }
+  .hiImAchref {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .aPassionateFull {
+    height: 3em;
+    font-size: 1.5em;
+    line-height: 150%;
+    color: #828282;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .heroImageIcon {
+    flex: 1;
+    max-width: 100%;
+  }
+  .heroImageIcon {
+    height: 16.75em;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    object-fit: cover;
+    min-width: 7.688em;
+  }
+  
+
 }

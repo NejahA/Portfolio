@@ -74,9 +74,12 @@
 @media screen and (max-width: 750px) {
   .contactUs {
     gap: 3.75em;
-    padding-left: 2.25em;
-    padding-right: 2.563em;
+    padding-left: 0;
+    padding-right: 0;
     box-sizing: border-box;
+  }
+  .field2 {
+    width: auto;
   }
 }
 @media screen and (max-width: 450px) {

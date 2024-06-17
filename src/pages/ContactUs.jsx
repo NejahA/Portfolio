@@ -10,7 +10,7 @@ const ContactUs = ({ className = "" }) => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    
     emailjs
       .sendForm(import.meta.env.VITE_EMAILJS_SERVICE_ID, import.meta.env.VITE_EMAILJS_TEMPLATE_ID, form.current, {
         publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
@@ -86,8 +86,7 @@ const ContactUs = ({ className = "" }) => {
             </div>
             <div className={styles.input2}>
               <div className={styles.firstName2}>Email address</div>
-              <div className={styles.field2}     
-              style={{width:"25em"}}
+              <div className={styles.field1}     
               >
                 <input
                   required 
